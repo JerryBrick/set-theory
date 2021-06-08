@@ -1,7 +1,7 @@
 # Teoría de Conjuntos
-## Proyecto final - Matemáticas discretas
+Proyecto final - Matemáticas discretas
 
-### Funciones:
+## Funciones:
 - Obtener un conjunto a partir de una cadena de entrada
 - Convertir un objeto de un conjunto a una cadena
 - Verificar si el conjunto tiene subconjuntos
@@ -14,7 +14,7 @@
 - Calcular la diferencia entre dos conjuntos
 - Calcular el producto cartesiano de dos conjuntos
 
-### Demostración
+## Demostración
 Si el script principal se ejecuta utilizando el argumento "*demo*", se utilizarán 
 un par de conjuntos predefinidos. Si el argumento no es introducido, el
 programa solicitará que se introduzcan dos conjuntos para realizar la
