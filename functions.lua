@@ -262,8 +262,8 @@ end
 local function calculateDiff(setA, setB) 
     local result = {}
     for i = 1, #setA, 1 do
-        -- Si el elemento de A existe en B, entonces lo agregamos al conjunto
-        if(valueExists(setB, setA[i])) then
+        -- Si el elemento de A NO existe en B, entonces lo agregamos al conjunto
+        if(not valueExists(setB, setA[i])) then
             table.insert(result, setA[i])
         end
     end
